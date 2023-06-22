@@ -1,0 +1,39 @@
+.homeContainer{
+    display: flex;
+}
+
+.left{
+    flex:1;
+    box-shadow: 0px 0px 12px -5px;
+    margin-top: 10px;
+    min-height: 150px;
+    margin-right: 20px;
+    border-radius: 3%;
+
+}
+
+.right{
+    flex:2;
+    box-shadow: 0px 0px 12px -5px;
+    margin-top: 10px;
+    border-radius: 3%;
+    position: relative;
+
+}
+.title{
+    align-items: center;
+}
+.title>.title{
+    padding: 10px;
+    flex:1;
+
+}
+
+.title>Button{
+    justify-content: right;
+   background-color:blue;
+    border-radius:10%;
+    color:rgb(217, 205, 205);
+    justify-content:right;
+   margin: 10px;
+}

@@ -1,0 +1,44 @@
+.message{
+    display: flex;
+    margin: 5%;
+    margin-bottom: 0%;
+
+}
+img{
+    border-radius: 50%;
+    margin: 10px;
+    height: 42px;
+    width: 42px;
+    object-fit: cover;
+}
+.text{
+    display: flex;
+    padding:10px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white; 
+    max-width: 50%;
+    text-align: start;
+    font-size: smaller
+}
+.time{
+    margin-bottom: 5px;
+}
+.true{
+    display: flex;
+    flex-direction: row-reverse;
+    color:black;
+}
+
+
+.false{
+    display: flex;
+    flex-direction: row;
+    color:black;
+}
+
+.truetext{
+    color:black;
+    background-color: rgb(200, 198, 198);
+    margin-left:auto;
+}
